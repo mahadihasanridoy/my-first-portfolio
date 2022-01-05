@@ -1,4 +1,4 @@
-section{
+.flex-section{
     display: flex;
 }
 .half-width{
@@ -9,6 +9,7 @@ section{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 .image-width{
     width: 600px;
@@ -18,7 +19,67 @@ body{
     background-color:yellowgreen;
     padding: 10px 40px;
     border-radius: 7px;
+    color:white;
 }
-.font-bold{
+span{
+    color:orange;
+}
+h1{
     font-weight: bold;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    width:40%;
+    margin-left:5px;
+    margin-right:5px;
+}
+#padding-add{
+    padding-left:50px;
+    padding-right: 40px;
+}
+.font-style{
+    font-size:40px;
+}
+.ex-mar{
+    font-size:50px;
+    margin-left: 40px;
+}
+.size-add{
+    font-size: 60px;
+}
+#ad-mar{
+     margin-left:100px;
+}
+.again-mar{
+    margin-left: 200px;
+}
+.my-web{
+    border-left:7px solid;
+    border-image: linear-gradient( to bottom,tomato,salmon) 1 100%;
+    border-image-slice: 1; 
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.baby-web{
+    border-left:7px solid ;
+    border-image:linear-gradient(to bottom,blue,cyan) 1 100%;
+    border-image-slice: 1; 
+    
+}
+.banner-top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.ad-ban{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+.t-al{
+    text-align: center;
+    margin-top: 30px;
+    font-size:25px;
 }
