@@ -1,0 +1,24 @@
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.margin-top{
+    margin-top:50px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.image-width{
+    width: 600px;
+}
+.anchor-style{
+    text-decoration: none;
+    background-color:yellowgreen;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.font-bold{
+    font-weight: bold;
+}
