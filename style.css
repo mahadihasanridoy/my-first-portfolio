@@ -57,9 +57,7 @@ h1{
     border-left:7px solid;
     border-image: linear-gradient( to bottom,tomato,salmon) 1 100%;
     border-image-slice: 1; 
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+
 }
 .baby-web{
     border-left:7px solid ;
@@ -71,12 +69,10 @@ h1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.ad-ban{
-    background-image: url(images/exp-bg.png);
+.add-bann{
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
-    
-    
+    background-position: right;
 }
 .t-al{
     text-align: center;
